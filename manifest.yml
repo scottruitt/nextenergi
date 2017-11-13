@@ -1,0 +1,8 @@
+---
+applications:
+- name: nextenergi
+  buildpack: staticfile_buildpack
+  host: nextenergi
+  instances: 2
+  memory: 64mb
+  route: nextenergi.io

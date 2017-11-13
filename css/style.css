@@ -1,0 +1,142 @@
+/* Typefaces */
+
+@font-face {
+  font-family: Book;
+  src: url(../font/GothamRnd-Book.otf);
+}
+
+@font-face {
+  font-family: BookItalic;
+  src: url(../font/GothamRnd-BookItal.otf);
+}
+
+@font-face {
+  font-family: Medium;
+  src: url(../font/GothamRnd-Medium.otf);
+}
+
+.bi {font-family: BookItalic;}
+.me {font-family: Medium;}
+
+
+/* Colors and buttons */
+
+.blue-1 {color: #45979b;}
+.blue-2 {color: #68c2be;}
+.green-1 {color: #328942;}
+.green-3 {color: #75c26e;}
+.white {color: #fff;}
+.yellow-4 {color: #fee35c;}
+
+a.yellow-4 {text-decoration: underline;}
+a.yellow-4:hover {color: #fed900;}
+
+.button {
+  background: #faa21b;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 11px;
+  padding: 4px 6px 2px;
+  text-transform: uppercase;
+}
+
+/* Tags */
+
+html,
+body,
+h1,
+h2,
+h6,
+input,
+p,
+textarea {
+	font-family: 'Book', Helvetica, sans-serif;
+}
+
+body {font-size: 16px;}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #fff;
+}
+
+h1 {
+	font-size: 45px;
+	margin: 40px auto 0;
+}
+
+h2 {font-size: 36px;}
+h3 {font-size: 24px;}
+
+h4 {
+  font-family: Medium;
+  font-size: 18px;
+}
+
+h5 {font-size: 14px;}
+
+/* Backgrounds */
+
+.bg-1 {background: #fff;}
+.bg-2 {background-color: #c7e8eb;}
+.bg-3 {background: #45979b;}
+.bg-4 {background: #fee35c;}
+.bg-5 {background: #75c26e;}
+.bg-6 {background-color: #68C2BE;}
+
+/* Helpers */
+
+.mt10 {margin: 10px 0 0;}
+.p20 {padding: 20px;}
+.p4020 {padding: 40px 20px;}
+.pb0 {padding-bottom: 0;}
+.pb20 {padding: 0 0 20px;}
+.pb30 {padding: 0 0 30px;}
+.pl10 {padding: 0 0 0 10px;}
+.pr10 {padding: 0 10px 0 0;}
+.pt10 {padding: 10px 0 0 ;}
+.pt40 {padding: 40px 0 0;}
+.pv20 {padding: 20px 0;}
+
+.oi {padding-right: 5px;}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .bg-4 {
+  	background: #fee35c url(../svg/ring.svg) no-repeat 63% 45%;
+    background-size: 35%;
+  }
+  
+  .tr {text-align: right;}
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+  .bg-4 {
+  	background: #fee35c url(../svg/ring.svg) no-repeat 65% 45%;
+    background-size: 35%;
+  }
+  
+  p {font-size: 17px;}
+  .tr {text-align: right;}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+  .bg-4 {
+  	background: #fee35c url(../svg/ring.svg) no-repeat 60% 45%;
+    background-size: 25%;
+  }
+  
+  p {font-size: 18px;}
+  .tr {text-align: right;}
+
+}
