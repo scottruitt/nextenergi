@@ -97,47 +97,36 @@ h5 {font-size: 14px;}
 .pb30 {padding: 0 0 30px;}
 .pl10 {padding: 0 0 0 10px;}
 .pr10 {padding: 0 10px 0 0;}
-.pt10 {padding: 10px 0 0 ;}
+.pt10 {padding: 10px 0 0;}
+.pt20 {padding: 20px 0 0;}
 .pt40 {padding: 40px 0 0;}
+.pv10 {padding: 10px 0;}
 .pv20 {padding: 20px 0;}
-
+.img-fluid {width: 100% \9;}
 .oi {padding-right: 5px;}
+.media img {
+  max-height: 50%;
+  max-width: 50%;
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
-  .bg-4 {
-  	background: #fee35c url(../svg/ring.svg) no-repeat 63% 45%;
-    background-size: 35%;
-  }
-  
-  .tr {text-align: right;}
   
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-
-  .bg-4 {
-  	background: #fee35c url(../svg/ring.svg) no-repeat 65% 45%;
-    background-size: 35%;
-  }
   
   p {font-size: 17px;}
-  .p20 {padding: 40px 20px;}
-  .tr {text-align: right;}
 
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
-  .bg-4 {
-  	background: #fee35c url(../svg/ring.svg) no-repeat 60% 45%;
-    background-size: 25%;
-  }
   
+  h1 {font-size: 48px;}
+  h2 {font-size: 40px;}
   p {font-size: 18px;}
-  .tr {text-align: right;}
+  .p20 {padding: 40px 20px;}
 
 }
