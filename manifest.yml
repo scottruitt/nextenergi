@@ -1,8 +1,7 @@
 ---
 applications:
-- name: nextenergi
+- name: nextenergi-stage
   buildpack: staticfile_buildpack
-  host: nextenergi
+  host: nextenergi-stage
   instances: 2
   memory: 64mb
-  route: nextenergi.io
